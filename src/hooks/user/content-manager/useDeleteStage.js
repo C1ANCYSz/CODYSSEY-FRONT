@@ -10,7 +10,7 @@ export function useDeleteStage() {
     mutationFn: async (stageId) => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/roadmaps/${roadmapId}/delete-stage/${stageId}`,
+          `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}/delete-stage/${stageId}`,
           {
             method: "DELETE",
             headers: {

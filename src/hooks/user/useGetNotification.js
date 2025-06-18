@@ -10,7 +10,7 @@ export function useGetNotification() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/user/notification",
+          `${import.meta.env.VITE_API_URL}/user/notification`,
           {
             method: "GET",
             headers: {

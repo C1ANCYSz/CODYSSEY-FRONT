@@ -6,7 +6,7 @@ export function useGetCompletedAppointment() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/academy/appointments/completed`,
+          `${import.meta.env.VITE_API_URL}/academy/appointments/completed`,
           {
             method: "GET",
             headers: {

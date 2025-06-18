@@ -7,14 +7,17 @@ export function useAddRoadmap() {
   const { mutate: addRoadmap, isLoading } = useMutation({
     mutationFn: async (roadmap) => {
       try {
-        const res = await fetch("http://localhost:3000/api/roadmaps", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
+        const res = await fetch(
+          `${import.meta.env.VITE_API_URL}/api/roadmaps`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            credentials: "include",
+            body: JSON.stringify(roadmap),
           },
-          credentials: "include",
-          body: JSON.stringify(roadmap),
-        });
+        );
         if (!res.ok) {
           throw new Error("Failed to add roadmap");
         }

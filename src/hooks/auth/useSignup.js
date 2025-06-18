@@ -14,7 +14,7 @@ export function useSignup() {
   } = useMutation({
     mutationFn: async ({ name, email, password, confirmPassword }) => {
       try {
-        const res = await fetch("http://localhost:3000/api/auth/signup", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/auth/signup`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

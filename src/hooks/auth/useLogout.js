@@ -15,7 +15,7 @@ export function useLogout() {
   } = useMutation({
     mutationFn: async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/auth/logout", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/auth/logout`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -37,6 +37,7 @@ export function useLogout() {
     },
     onSuccess: () => {
       toast.success("Logout successful");
+      // queryClient.invalidateQueries({ active: true });
     },
     onError: (data) => {
       toast.error(data.message);

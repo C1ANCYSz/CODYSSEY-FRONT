@@ -6,7 +6,7 @@ export function useGetPendingAppointment() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/academy/appointments/pending`,
+          `${import.meta.env.VITE_API_URL}/appointments/pending`,
           {
             method: "GET",
             headers: {

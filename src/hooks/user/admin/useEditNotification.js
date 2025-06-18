@@ -5,7 +5,7 @@ export function useEditNotification() {
   const { mutate: editNotification, isLoading: isEditing } = useMutation({
     mutationFn: async ({ text }) => {
       const response = await fetch(
-        `http://localhost:3000/api/admin/notification`,
+        `${import.meta.env.VITE_API_URL}/admin/notification`,
         {
           method: "POST",
           headers: {

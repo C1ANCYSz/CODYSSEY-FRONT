@@ -16,7 +16,7 @@ export const useUpdateStageProgress = () => {
     mutationFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/student/roadmaps/${roadmapId}/progress`,
+          `${import.meta.env.VITE_API_URL}/student/roadmaps/${roadmapId}/progress`,
           {
             method: "POST",
             headers: {

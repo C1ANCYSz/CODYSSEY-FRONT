@@ -14,7 +14,7 @@ export function useGetStage() {
     queryFn: async () => {
       try {
         const res = await fetch(
-          `http://localhost:3000/api/roadmaps/${roadmapId}/stages/${stageNumber}`,
+          `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}/stages/${stageNumber}`,
           {
             method: "GET",
             headers: {

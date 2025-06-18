@@ -8,7 +8,7 @@ export const useSubmitQuestionnaire = () => {
     mutationFn: async (answers) => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/student/answer-questionnare",
+          `${import.meta.env.VITE_API_URL}/student/answer-questionnare`,
           {
             method: "POST",
             headers: {

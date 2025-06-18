@@ -10,7 +10,7 @@ export function useGetQuestions() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/student/questionnare",
+          `${import.meta.env.VITE_API_URL}/student/questionnare`,
           {
             method: "GET",
             headers: {

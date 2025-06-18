@@ -10,7 +10,7 @@ export function useGetCertificates() {
     queryFn: async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/student/certificates",
+          `${import.meta.env.VITE_API_URL}/student/certificates`,
           {
             credentials: "include",
           },

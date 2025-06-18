@@ -10,7 +10,7 @@ export function useGetContentManager() {
     queryFn: async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/content-manager/dashboard",
+          `${import.meta.env.VITE_API_URL}/content-manager/dashboard`,
           {
             credentials: "include",
           },

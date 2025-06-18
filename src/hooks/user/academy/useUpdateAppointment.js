@@ -7,7 +7,7 @@ export function useUpdateAppointment() {
     mutationFn: async function ({ appointmentId, data }) {
       try {
         const res = await fetch(
-          `http://localhost:3000/api/academy/appointments/${appointmentId}`,
+          `${import.meta.env.VITE_API_URL}/academy/appointments/${appointmentId}`,
           {
             method: "PUT",
             body: JSON.stringify(data),

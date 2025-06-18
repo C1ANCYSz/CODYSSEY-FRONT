@@ -6,7 +6,7 @@ export function useGetAppointments() {
     queryFn: async function () {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/student/appointments`,
+          `${import.meta.env.VITE_API_URL}/student/appointments`,
           {
             headers: {
               "Content-Type": "application/json",

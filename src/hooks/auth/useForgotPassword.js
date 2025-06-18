@@ -12,7 +12,7 @@ export function useForgotPassword() {
     mutationFn: async ({ email, setStep }) => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/auth/forgot-password",
+          `${import.meta.env.VITE_API_URL}/auth/forgot-password`,
           {
             method: "POST",
             headers: {
@@ -50,13 +50,16 @@ export function useVerifyEmail() {
   } = useMutation({
     mutationFn: async ({ email, code, setStep }) => {
       try {
-        const res = await fetch("http://localhost:3000/api/auth/verify-email", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
+        const res = await fetch(
+          `${import.meta.env.VITE_API_URL}/auth/verify-email`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ email, code, setStep }),
           },
-          body: JSON.stringify({ email, code, setStep }),
-        });
+        );
         const data = await res.json();
         if (data.success) {
           setStep(3);
@@ -97,7 +100,7 @@ export function useResetPassword() {
     mutationFn: async ({ password, confirmPassword }) => {
       try {
         const res = await fetch(
-          `http://localhost:3000/api/auth/reset-password/${token}`,
+          `${import.meta.env.VITE_API_URL}/auth/reset-password/${token}`,
           {
             method: "POST",
             headers: {

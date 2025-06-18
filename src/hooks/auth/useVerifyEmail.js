@@ -11,7 +11,7 @@ export function useVerifyEmail() {
       const token = { verificationToken: code };
       console.log(token);
       const response = await fetch(
-        `http://localhost:3000/api/auth/verify-email`,
+        `${import.meta.env.VITE_API_URL}/auth/verify-email`,
         {
           method: "POST",
           headers: {
@@ -21,6 +21,10 @@ export function useVerifyEmail() {
           credentials: "include",
         },
       );
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to verify email");
+      }
       return response.json();
     },
     onSuccess: (data) => {

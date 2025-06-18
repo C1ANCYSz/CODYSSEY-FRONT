@@ -6,7 +6,7 @@ export function useGetDashboard() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/academy/dashboard`,
+          `${import.meta.env.VITE_API_URL}/academy/dashboard`,
           {
             method: "GET",
             headers: {

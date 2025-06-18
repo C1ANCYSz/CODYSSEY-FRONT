@@ -6,7 +6,7 @@ export function useGetContentManagers() {
     queryFn: async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/admin/content-managers",
+          `${import.meta.env.VITE_API_URL}/admin/content-managers`,
           {
             headers: {
               "Content-Type": "application/json",

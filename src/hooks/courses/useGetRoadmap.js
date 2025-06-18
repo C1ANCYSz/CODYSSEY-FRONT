@@ -11,7 +11,7 @@ export const useGetRoadmap = () => {
     queryKey: ["roadmap", roadmapId],
     queryFn: async () => {
       const response = await fetch(
-        `http://localhost:3000/api/roadmaps/${roadmapId}`,
+        `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}`,
         {
           credentials: "include",
         },

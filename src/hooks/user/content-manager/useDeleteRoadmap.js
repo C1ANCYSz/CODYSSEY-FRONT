@@ -8,7 +8,7 @@ export function useDeleteRoadmap() {
   const { mutate: deleteRoadmap, isLoading } = useMutation({
     mutationFn: async () => {
       const response = await fetch(
-        `http://localhost:3000/api/roadmaps/${roadmapId}`,
+        `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}`,
         {
           method: "DELETE",
           headers: {

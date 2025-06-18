@@ -13,7 +13,7 @@ export function useEnroll() {
     mutationFn: async (roadmapId) => {
       try {
         const res = await fetch(
-          `http://localhost:3000/api/student/enroll/${roadmapId}`,
+          `${import.meta.env.VITE_API_URL}/student/enroll/${roadmapId}`,
           {
             method: "POST",
             credentials: "include",

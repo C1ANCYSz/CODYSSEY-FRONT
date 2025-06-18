@@ -15,7 +15,7 @@ export function AuthProvider({ children }) {
       // Store the current location before checking login status
       localStorage.setItem("lastLocation", location.pathname);
       try {
-        const res = await fetch("http://localhost:3000/api/auth/check", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/auth/check`, {
           method: "GET",
           credentials: "include", // Sends cookie
         });
@@ -24,6 +24,7 @@ export function AuthProvider({ children }) {
         if (data.success) {
           setIsLoggedIn(true);
           setUser(data.user);
+          console.log(data.user);
           // Redirect to the last location if available
           const lastLocation = localStorage.getItem("lastLocation");
           if (lastLocation) {

@@ -9,9 +9,12 @@ export function useGetStudent() {
     queryKey: ["student"],
     queryFn: async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/student/dashboard", {
-          credentials: "include",
-        });
+        const res = await fetch(
+          `${import.meta.env.VITE_API_URL}/student/dashboard`,
+          {
+            credentials: "include",
+          },
+        );
         const data = await res.json();
         return data.data;
       } catch (error) {

@@ -10,7 +10,7 @@ export function useAddStage() {
       try {
         console.log(newStage);
         const res = await fetch(
-          `http://localhost:3000/api/roadmaps/${roadmapId}/add-stage`,
+          `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}/add-stage`,
           {
             method: "POST",
             body: JSON.stringify(newStage),

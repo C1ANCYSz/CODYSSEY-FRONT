@@ -7,7 +7,7 @@ export function useAddAcademy() {
     mutationFn: async function (academy) {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/admin/academies`,
+          `${import.meta.env.VITE_API_URL}/admin/academies`,
           {
             method: "POST",
             headers: {

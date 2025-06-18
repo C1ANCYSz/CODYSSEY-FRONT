@@ -14,7 +14,7 @@ export function useUpdateStageContent() {
     mutationFn: async ({ stageId, data }) => {
       try {
         const res = await fetch(
-          `http://localhost:3000/api/roadmaps/${roadmapId}/update-stage/${stageId}`,
+          `${import.meta.env.VITE_API_URL}/roadmaps/${roadmapId}/update-stage/${stageId}`,
           {
             method: "PUT",
             body: JSON.stringify(data),

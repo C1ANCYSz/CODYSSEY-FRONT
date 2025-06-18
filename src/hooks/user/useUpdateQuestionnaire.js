@@ -6,7 +6,7 @@ export const useUpdateQuestionnaire = () => {
     mutationFn: async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/student/skip-questionnare",
+          `${import.meta.env.VITE_API_URL}/student/skip-questionnare`,
           {
             method: "PUT",
             headers: {

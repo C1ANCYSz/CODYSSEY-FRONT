@@ -10,7 +10,7 @@ export function useGetSettings() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/user/settings`,
+          `${import.meta.env.VITE_API_URL}/user/settings`,
           {
             credentials: "include",
           },

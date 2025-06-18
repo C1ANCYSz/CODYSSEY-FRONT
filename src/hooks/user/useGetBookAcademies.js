@@ -6,7 +6,7 @@ export function useGetBookAcademies() {
     queryFn: async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/student/book-appointment",
+          `${import.meta.env.VITE_API_URL}/student/book-appointment`,
           {
             method: "GET",
             headers: {

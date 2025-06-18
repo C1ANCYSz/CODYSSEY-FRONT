@@ -10,7 +10,7 @@ export const useGetAdminDashboard = () => {
     queryFn: async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/admin/dashboard`,
+          `${import.meta.env.VITE_API_URL}/admin/dashboard`,
           {
             headers: {
               "Content-Type": "application/json",
