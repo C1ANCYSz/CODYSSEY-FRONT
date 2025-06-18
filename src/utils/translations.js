@@ -386,6 +386,167 @@ export const translations = {
     location_summary: "Location Summary",
     top_performing_locations: "Top Performing Locations",
     students: "students",
+
+    // Help Center Page
+    help_center: "Help Center",
+    what_is_codyssey: "What is Codyssey?",
+    codyssey_description: "Codyssey is a personalized e-learning platform for aspiring programmers. It provides structured roadmaps, learning modules, and interactive features to help users learn programming effectively and efficiently.",
+
+    how_platform_works: "How the Platform Works",
+    custom_roadmaps: "Custom Roadmaps",
+    custom_roadmaps_desc: "After signing up, users select their goals (e.g., become a frontend developer), and Codyssey generates a roadmap tailored to them.",
+    step_by_step_modules: "Step-by-step Modules",
+    step_by_step_modules_desc: "Each roadmap is divided into clear, actionable modules that include lessons, exercises, and resources.",
+    progress_tracking: "Progress Tracking",
+    progress_tracking_desc: "The dashboard allows users to monitor their learning progress and stay motivated.",
+    quizzes_projects: "Quizzes & Mini Projects",
+    quizzes_projects_desc: "To reinforce learning, quizzes and small practical challenges are built into most stages.",
+    switch_tracks: "Switch Tracks Anytime",
+    switch_tracks_desc: "Want to try backend or fullstack? Users can easily add or switch learning tracks at any time.",
+
+    additional_features: "Additional Features",
+    community_features: "Community Features",
+    community_features_desc: "Engage with others through forums and discussions (coming soon).",
+    dark_mode: "Dark Mode Support",
+    dark_mode_desc: "Comfortable viewing experience for long study sessions.",
+    mobile_design: "Mobile-Friendly Design",
+    mobile_design_desc: "Learn on the go with a fully responsive layout.",
+    multilingual_support: "Multi-language Support",
+    multilingual_support_desc: "Switch between English and Arabic seamlessly across the platform.",
+
+    need_more_help: "Need Further Assistance?",
+    need_more_help_desc: "If you ever get stuck or need help with specific problems, you can always head over to our dedicated Contact or FAQ pages for more support.",
+
+    // FAQs Page (new additions)
+    faq_page_title: "Frequently Asked Questions",
+    faq_what_is_codyssey_q: "What is Codyssey?",
+    faq_what_is_codyssey_a: "Codyssey is a personalized e-learning platform focused on programming and computer science. It helps users follow structured roadmaps based on their individual goals.",
+    faq_is_codyssey_free_q: "Is Codyssey free to use?",
+    faq_is_codyssey_free_a: "Yes! Most of Codyssey's features and learning resources are completely free. Some optional features may require premium access in the future.",
+    faq_how_create_account_q: "How do I create an account?",
+    faq_how_create_account_a: "Simply click on the 'Sign Up' button on the homepage, fill in your details, and verify your email to get started.",
+    faq_use_without_login_q: "Can I use Codyssey without logging in?",
+    faq_use_without_login_a: "You can browse basic information, but to access personalized roadmaps, save progress, or book appointments, you need to log in.",
+    faq_how_roadmaps_generated_q: "How are roadmaps generated?",
+    faq_how_roadmaps_generated_a: "When you sign up, Codyssey asks you a few questions about your goals. Based on your answers, it generates a custom roadmap to guide your learning.",
+    faq_switch_tracks_q: "Can I switch tracks or change my goals?",
+    faq_switch_tracks_a: "Yes, you can switch or restart your roadmap at any time from the dashboard settings.",
+    faq_how_appointments_work_q: "How do appointments work?",
+    faq_how_appointments_work_a: "Once you complete a stage in your roadmap, you may be eligible to book a session with an expert for help or evaluation. Appointment availability depends on your academy.",
+    faq_data_secure_q: "Is my data secure?",
+    faq_data_secure_a: "Yes. Codyssey values user privacy and uses secure methods to protect your account data and personal information.",
+    faq_forgot_password_q: "What if I forget my password?",
+    faq_forgot_password_a: "You can click 'Forgot Password' on the login page. We’ll send you a password reset link to your registered email.",
+    faq_no_verification_email_q: "I didn’t receive the verification email. What should I do?",
+    faq_no_verification_email_a: "Check your spam folder. If it’s not there, go back to the login page and click on 'Resend verification email.'",
+
+    // Example additions for translation.js (English)
+terms_of_service_title: "Terms of Service",
+
+terms_introduction_heading: "Introduction",
+terms_introduction_paragraph1: "Welcome to Codyssey! These Terms of Service ('Terms') govern your access to and use of the Codyssey website, applications, and services (collectively, the 'Service'). Please read these Terms carefully before using our Service.",
+terms_introduction_paragraph2: "By accessing or using the Service, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you may not use the Service.",
+
+terms_obligations_heading: "User Obligations",
+terms_obligations_paragraph1: "You agree to use the Service only for lawful purposes and in accordance with these Terms. You are responsible for all activities that occur under your account.",
+terms_obligations_item1: "You must be at least 13 years old to use the Service.",
+terms_obligations_item2: "You agree not to use the Service for any illegal or unauthorized purpose.",
+terms_obligations_item3: "You are responsible for maintaining the confidentiality of your account login information.",
+terms_obligations_item4: "You agree not to upload, post, or transmit any content that is unlawful, harmful, threatening, abusive, defamatory, or otherwise objectionable.",
+
+terms_intellectual_property_heading: "Intellectual Property",
+terms_intellectual_property_paragraph: "All content on the Codyssey platform, including text, graphics, logos, images, software, and the compilation thereof, is the property of Codyssey or its suppliers and protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works of any content without express written permission.",
+
+terms_termination_heading: "Termination",
+terms_termination_paragraph: "We may terminate or suspend your account and access to the Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms. Upon termination, your right to use the Service will immediately cease.",
+
+terms_disclaimer_heading: "Disclaimer of Warranties",
+terms_disclaimer_paragraph: "The Service is provided on an 'as is' and 'as available' basis. Codyssey makes no warranties, express or implied, regarding the Service, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.",
+
+terms_governing_law_heading: "Governing Law",
+terms_governing_law_paragraph: "These Terms shall be governed and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions.",
+
+terms_contact_heading: "Contact Information",
+terms_contact_paragraph: "If you have any questions about these Terms, please contact us at support@codyssey.com.",
+
+// Privacy Policy Page (new additions)
+privacy_policy_title: "Privacy Policy",
+
+privacy_introduction_heading: "Introduction",
+privacy_introduction_paragraph1: "This Privacy Policy describes how Codyssey ('we', 'us', or 'our') collects, uses, and discloses your information when you use our website, applications, and services (collectively, the 'Service').",
+privacy_introduction_paragraph2: "By using the Service, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this policy, please do not access or use the Service.",
+
+privacy_info_collect_heading: "Information We Collect",
+privacy_info_collect_paragraph1: "We collect several types of information from and about users of our Service:",
+privacy_info_collect_item1_title: "Personal Information",
+privacy_info_collect_item1_desc: "Information by which you may be personally identified, such as name, email address, and other contact details when you register for an account.",
+privacy_info_collect_item2_title: "Usage Data",
+privacy_info_collect_item2_desc: "Information automatically collected about your activity on the Service, including IP address, browser type, pages visited, and time spent on pages.",
+privacy_info_collect_item3_title: "Device Information",
+privacy_info_collect_item3_desc: "Information about the device you use to access the Service, such as device type, operating system, and unique device identifiers.",
+
+privacy_how_use_info_heading: "How We Use Your Information",
+privacy_how_use_info_item1: "To provide, maintain, and improve our Service.",
+privacy_how_use_info_item2: "To personalize your experience and deliver tailored content, including roadmaps and recommendations.",
+privacy_how_use_info_item3: "To communicate with you, including sending updates, security alerts, and support messages.",
+privacy_how_use_info_item4: "To monitor and analyze trends, usage, and activities in connection with our Service.",
+
+privacy_sharing_info_heading: "Sharing Your Information",
+privacy_sharing_info_paragraph: "We do not sell your personal data to third parties. We may share information with third-party service providers who perform services on our behalf (e.g., hosting, analytics), or as required by law.",
+
+privacy_data_security_heading: "Data Security",
+privacy_data_security_paragraph: "We implement reasonable security measures designed to protect your personal information from unauthorized access, use, or disclosure. However, no internet transmission is entirely secure.",
+
+privacy_your_rights_heading: "Your Data Protection Rights",
+privacy_your_rights_paragraph: "You have certain rights regarding your personal data, including the right to access, correct, delete, or restrict its processing. Please contact us to exercise these rights.",
+
+privacy_changes_heading: "Changes to This Privacy Policy",
+privacy_changes_paragraph: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last Updated' date.",
+
+privacy_contact_heading: "Contact Us",
+privacy_contact_paragraph: "If you have any questions about this Privacy Policy, please contact us at privacy@codyssey.com.",
+
+// About Us Page (new additions)
+about_us_title: "About Us",
+
+about_story_heading: "Our Story",
+about_story_paragraph1: "Codyssey was born from a simple idea: make quality programming education accessible and tailored for everyone. We noticed that many aspiring developers struggled with overwhelming information and a lack of clear direction.",
+about_story_paragraph2: "We set out to create a platform that not only provides comprehensive learning paths but also adapts to individual goals, making the journey from beginner to professional smoother and more engaging.",
+
+about_mission_heading: "Our Mission",
+about_mission_paragraph: "Our mission is to empower individuals worldwide to achieve their programming dreams by providing personalized, effective, and supportive learning experiences.",
+
+about_vision_heading: "Our Vision",
+about_vision_paragraph: "We envision a future where anyone, regardless of their background or location, can acquire the in-demand tech skills needed to thrive in the digital economy.",
+
+about_why_choose_heading: "Why Choose Codyssey?",
+about_value1_title: "Personalized Roadmaps",
+about_value1_desc: "Learning paths are customized to your specific career goals.",
+about_value2_title: "Interactive Learning",
+about_value2_desc: "Engage with quizzes, mini-projects, and expert sessions.",
+about_value3_title: "Community Support",
+about_value3_desc: "Connect with fellow learners and mentors (coming soon).",
+
+about_team_heading: "Our Team",
+about_team_paragraph: "We are a passionate team of developers, educators, and designers committed to building the best e-learning experience. We believe in the power of education to transform lives.",
+
+// Contact Us Page (new additions)
+contact_us_title: "Contact Us",
+contact_introduction_paragraph: "We'd love to hear from you! Whether you have a question, feedback, or need support, please don't hesitate to reach out. Choose the most relevant contact method below.",
+
+contact_general_inquiries_heading: "General Inquiries",
+contact_general_inquiries_paragraph: "For general questions about Codyssey, partnerships, or media inquiries:",
+contact_technical_support_heading: "Technical Support",
+contact_technical_support_paragraph: "If you're experiencing technical issues with the platform or need help with your account:",
+contact_partnerships_heading: "Partnerships & Collaborations",
+contact_partnerships_paragraph: "For business proposals, academic collaborations, or other partnership opportunities:",
+contact_email_label: "Email", // Reusable for email links
+
+contact_social_media_heading: "Connect With Us",
+contact_social_media_paragraph: "Follow us on social media to stay updated with the latest news, features, and programming tips:",
+contact_facebook: "Facebook",
+contact_twitter: "Twitter",
+contact_linkedin: "LinkedIn",
   },
 
   ar: {
@@ -770,5 +931,165 @@ export const translations = {
     location_summary: "ملخص الموقع",
     top_performing_locations: "أفضل المواقع أداءً",
     students: "طلاب",
+
+    // Help Center Page
+    help_center: "مركز المساعدة",
+    what_is_codyssey: "ما هو Codyssey؟",
+    codyssey_description: "Codyssey هو منصة تعليمية مخصصة للمبرمجين الطموحين. توفر خرائط طريق منظمة، ودروس تعليمية، وميزات تفاعلية لمساعدتك على تعلم البرمجة بكفاءة وفعالية.",
+
+    how_platform_works: "كيف تعمل المنصة",
+    custom_roadmaps: "خرائط طريق مخصصة",
+    custom_roadmaps_desc: "بعد التسجيل، يختار المستخدمون أهدافهم (مثل أن يصبحوا مطوري واجهات أمامية)، وتقوم Codyssey بإنشاء خريطة طريق مخصصة لهم.",
+    step_by_step_modules: "دروس منظمة خطوة بخطوة",
+    step_by_step_modules_desc: "تنقسم كل خريطة طريق إلى دروس منظمة تشمل دروسًا، تمارين، ومصادر تعليمية.",
+    progress_tracking: "تتبع التقدم",
+    progress_tracking_desc: "تتيح لوحة التحكم للمستخدمين مراقبة تقدمهم والحفاظ على حماسهم.",
+    quizzes_projects: "اختبارات ومشاريع صغيرة",
+    quizzes_projects_desc: "لتعزيز التعلم، تتضمن معظم المراحل اختبارات وتحديات عملية صغيرة.",
+    switch_tracks: "تبديل المسارات في أي وقت",
+    switch_tracks_desc: "هل ترغب في تجربة تطوير الواجهة الخلفية أو المسار الكامل؟ يمكن للمستخدمين تبديل المسارات بسهولة في أي وقت.",
+
+    additional_features: "ميزات إضافية",
+    community_features: "ميزات المجتمع",
+    community_features_desc: "تفاعل مع الآخرين من خلال المنتديات والمناقشات (قريباً).",
+    dark_mode: "دعم الوضع الداكن",
+    dark_mode_desc: "تجربة مشاهدة مريحة لجلسات الدراسة الطويلة.",
+    mobile_design: "تصميم متوافق مع الجوال",
+    mobile_design_desc: "تعلم أثناء التنقل مع تصميم متجاوب بالكامل.",
+    multilingual_support: "دعم متعدد اللغات",
+    multilingual_support_desc: "قم بالتبديل بين الإنجليزية والعربية بسهولة عبر المنصة.",
+
+    need_more_help: "هل تحتاج إلى مساعدة إضافية؟",
+    need_more_help_desc: "إذا واجهت أي مشكلة أو احتجت إلى المساعدة، يمكنك دائمًا زيارة صفحات التواصل أو الأسئلة الشائعة للحصول على الدعم.",
+
+    // FAQs Page (new additions)
+    faq_page_title: "الأسئلة المتكررة",
+    faq_what_is_codyssey_q: "ما هو كوديسي؟",
+    faq_what_is_codyssey_a: "كوديسي هو منصة تعليمية مخصصة تركز على البرمجة وعلوم الكمبيوتر. يساعد المستخدمين على اتباع خرائط طريق منظمة بناءً على أهدافهم الفردية.",
+    faq_is_codyssey_free_q: "هل كوديسي مجاني للاستخدام؟",
+    faq_is_codyssey_free_a: "نعم! معظم ميزات وموارد التعلم في كوديسي مجانية تمامًا. قد تتطلب بعض الميزات الاختيارية وصولًا مميزًا في المستقبل.",
+    faq_how_create_account_q: "كيف أقوم بإنشاء حساب؟",
+    faq_how_create_account_a: "ما عليك سوى النقر على زر 'التسجيل' في الصفحة الرئيسية، وملء بياناتك، والتحقق من بريدك الإلكتروني للبدء.",
+    faq_use_without_login_q: "هل يمكنني استخدام كوديسي بدون تسجيل الدخول؟",
+    faq_use_without_login_a: "يمكنك تصفح المعلومات الأساسية، ولكن للوصول إلى خرائط الطريق المخصصة، وحفظ التقدم، أو حجز المواعيد، تحتاج إلى تسجيل الدخول.",
+    faq_how_roadmaps_generated_q: "كيف يتم إنشاء خرائط الطريق؟",
+    faq_how_roadmaps_generated_a: "عند التسجيل، يطرح عليك كوديسي بعض الأسئلة حول أهدافك. بناءً على إجاباتك، يقوم بإنشاء خريطة طريق مخصصة لتوجيه تعلمك.",
+    faq_switch_tracks_q: "هل يمكنني تبديل المسارات أو تغيير أهدافي؟",
+    faq_switch_tracks_a: "نعم، يمكنك تبديل أو إعادة تشغيل خريطة طريقك في أي وقت من إعدادات لوحة التحكم.",
+    faq_how_appointments_work_q: "كيف تعمل المواعيد؟",
+    faq_how_appointments_work_a: "بمجرد إكمال مرحلة في خريطة طريقك، قد تكون مؤهلاً لحجز جلسة مع خبير للحصول على المساعدة أو التقييم. يعتمد توفر المواعيد على أكاديميتك.",
+    faq_data_secure_q: "هل بياناتي آمنة؟",
+    faq_data_secure_a: "نعم. كوديسي يقدر خصوصية المستخدم ويستخدم طرقًا آمنة لحماية بيانات حسابك ومعلوماتك الشخصية.",
+    faq_forgot_password_q: "ماذا لو نسيت كلمة المرور الخاصة بي؟",
+    faq_forgot_password_a: "يمكنك النقر على 'هل نسيت كلمة المرور؟' في صفحة تسجيل الدخول. سنرسل لك رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني المسجل.",
+    faq_no_verification_email_q: "لم أستلم بريد التحقق الإلكتروني. ماذا أفعل؟",
+    faq_no_verification_email_a: "تحقق من مجلد البريد العشوائي. إذا لم يكن هناك، عد إلى صفحة تسجيل الدخول وانقر على 'إعادة إرسال بريد التحقق الإلكتروني.'",
+
+    // Example additions for translation.js (Arabic) - you'll need to fill these with actual Arabic translations
+terms_of_service_title: "شروط الخدمة",
+
+terms_introduction_heading: "مقدمة",
+terms_introduction_paragraph1: "أهلاً بك في كوديسي! تحكم شروط الخدمة هذه ('الشروط') وصولك واستخدامك لموقع كوديسي الإلكتروني وتطبيقاته وخدماته (يُشار إليها مجتمعة باسم 'الخدمة'). يرجى قراءة هذه الشروط بعناية قبل استخدام خدمتنا.",
+terms_introduction_paragraph2: "من خلال الوصول إلى الخدمة أو استخدامها، فإنك توافق على الالتزام بهذه الشروط وسياسة الخصوصية الخاصة بنا. إذا كنت لا توافق على هذه الشروط، فلا يجوز لك استخدام الخدمة.",
+
+terms_obligations_heading: "التزامات المستخدم",
+terms_obligations_paragraph1: "أنت توافق على استخدام الخدمة فقط للأغراض المشروعة ووفقًا لهذه الشروط. أنت مسؤول عن جميع الأنشطة التي تحدث تحت حسابك.",
+terms_obligations_item1: "يجب أن يكون عمرك 13 عامًا على الأقل لاستخدام الخدمة.",
+terms_obligations_item2: "أنت توافق على عدم استخدام الخدمة لأي غرض غير قانوني أو غير مصرح به.",
+terms_obligations_item3: "أنت مسؤول عن الحفاظ على سرية معلومات تسجيل الدخول لحسابك.",
+terms_obligations_item4: "أنت توافق على عدم تحميل أو نشر أو نقل أي محتوى غير قانوني أو ضار أو تهديدي أو مسيء أو تشهيري أو غير مرغوب فيه بأي شكل آخر.",
+
+terms_intellectual_property_heading: "الملكية الفكرية",
+terms_intellectual_property_paragraph: "جميع المحتويات الموجودة على منصة كوديسي، بما في ذلك النصوص والرسومات والشعارات والصور والبرامج وتجميعها، هي ملك لكوديسي أو لمورديها وهي محمية بموجب قوانين الملكية الفكرية. لا يجوز لك إعادة إنتاج أو توزيع أو تعديل أو إنشاء أعمال مشتقة من أي محتوى دون إذن كتابي صريح.",
+
+terms_termination_heading: "الإنهاء",
+terms_termination_paragraph: "يجوز لنا إنهاء أو تعليق حسابك والوصول إلى الخدمة فورًا، دون إشعار مسبق أو مسؤولية، لأي سبب كان، بما في ذلك على سبيل المثال لا الحصر إذا انتهكت هذه الشروط. عند الإنهاء، سيتوقف حقك في استخدام الخدمة على الفور.",
+
+terms_disclaimer_heading: "إخلاء المسؤولية عن الضمانات",
+terms_disclaimer_paragraph: "يتم تقديم الخدمة 'كما هي' و 'حسب توفرها'. لا تقدم كوديسي أي ضمانات، صريحة أو ضمنية، بخصوص الخدمة، بما في ذلك على سبيل المثال لا الحصر الضمانات الضمنية لقابلية التسويق، والملاءمة لغرض معين، وعدم الانتهاك.",
+
+terms_governing_law_heading: "القانون الواجب التطبيق",
+terms_governing_law_paragraph: "تخضع هذه الشروط وتفسر وفقًا لقوانين [بلدك/ولايتك]، دون اعتبار لتضارب أحكام القانون فيها.",
+
+terms_contact_heading: "معلومات الاتصال",
+terms_contact_paragraph: "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا على support@codyssey.com.",
+
+privacy_policy_title: "سياسة الخصوصية",
+
+privacy_introduction_heading: "مقدمة",
+privacy_introduction_paragraph1: "تصف سياسة الخصوصية هذه كيف تقوم كوديسي ('نحن' أو 'لنا' أو 'خاصتنا') بجمع واستخدام والكشف عن معلوماتك عند استخدامك لموقعنا الإلكتروني وتطبيقاتنا وخدماتنا (يُشار إليها مجتمعة باسم 'الخدمة').",
+privacy_introduction_paragraph2: "باستخدامك للخدمة، فإنك توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة. إذا كنت لا توافق على شروط هذه السياسة، يرجى عدم الوصول إلى الخدمة أو استخدامها.",
+
+privacy_info_collect_heading: "المعلومات التي نجمعها",
+privacy_info_collect_paragraph1: "نحن نجمع عدة أنواع من المعلومات من وعن مستخدمي خدمتنا:",
+privacy_info_collect_item1_title: "المعلومات الشخصية",
+privacy_info_collect_item1_desc: "المعلومات التي يمكن من خلالها التعرف عليك شخصيًا، مثل الاسم وعنوان البريد الإلكتروني وتفاصيل الاتصال الأخرى عند تسجيلك لحساب.",
+privacy_info_collect_item2_title: "بيانات الاستخدام",
+privacy_info_collect_item2_desc: "المعلومات التي يتم جمعها تلقائيًا حول نشاطك على الخدمة، بما في ذلك عنوان IP ونوع المتصفح والصفحات التي تمت زيارتها والوقت المستغرق في الصفحات.",
+privacy_info_collect_item3_title: "معلومات الجهاز",
+privacy_info_collect_item3_desc: "معلومات حول الجهاز الذي تستخدمه للوصول إلى الخدمة، مثل نوع الجهاز ونظام التشغيل ومعرفات الجهاز الفريدة.",
+
+privacy_how_use_info_heading: "كيف نستخدم معلوماتك",
+privacy_how_use_info_item1: "لتقديم خدمتنا وصيانتها وتحسينها.",
+privacy_how_use_info_item2: "لتخصيص تجربتك وتقديم محتوى مخصص، بما في ذلك خرائط الطريق والتوصيات.",
+privacy_how_use_info_item3: "للتواصل معك، بما في ذلك إرسال التحديثات وتنبيهات الأمان ورسائل الدعم.",
+privacy_how_use_info_item4: "لمراقبة وتحليل الاتجاهات والاستخدام والأنشطة المتعلقة بخدمتنا.",
+
+privacy_sharing_info_heading: "مشاركة معلوماتك",
+privacy_sharing_info_paragraph: "نحن لا نبيع بياناتك الشخصية لأطراف ثالثة. قد نشارك المعلومات مع مزودي خدمة خارجيين يقومون بتقديم خدمات نيابة عنا (مثل الاستضافة والتحليلات)، أو كما يقتضي القانون.",
+
+privacy_data_security_heading: "أمن البيانات",
+privacy_data_security_paragraph: "نحن نطبق تدابير أمنية معقولة مصممة لحماية معلوماتك الشخصية من الوصول غير المصرح به أو الاستخدام أو الكشف عنها. ومع ذلك، لا يوجد نقل عبر الإنترنت آمن تمامًا.",
+
+privacy_your_rights_heading: "حقوقك في حماية البيانات",
+privacy_your_rights_paragraph: "لديك حقوق معينة فيما يتعلق ببياناتك الشخصية، بما في ذلك الحق في الوصول إلى بياناتك أو تصحيحها أو حذفها أو تقييد معالجتها. يرجى الاتصال بنا لممارسة هذه الحقوق.",
+
+privacy_changes_heading: "التغييرات على سياسة الخصوصية هذه",
+privacy_changes_paragraph: "قد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة وتحديث تاريخ 'آخر تحديث'.",
+
+privacy_contact_heading: "اتصل بنا",
+privacy_contact_paragraph: "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على privacy@codyssey.com.",
+
+// About Us Page (new additions)
+about_us_title: "من نحن",
+
+about_story_heading: "قصتنا",
+about_story_paragraph1: "ولدت كوديسي من فكرة بسيطة: جعل تعليم البرمجة عالي الجودة متاحًا ومخصصًا للجميع. لاحظنا أن العديد من المطورين الطموحين كانوا يعانون من وفرة المعلومات وعدم وجود توجيه واضح.",
+about_story_paragraph2: "شرعنا في إنشاء منصة لا توفر فقط مسارات تعليمية شاملة ولكنها تتكيف أيضًا مع الأهداف الفردية، مما يجعل الرحلة من المبتدئ إلى المحترف أكثر سلاسة وجاذبية.",
+
+about_mission_heading: "مهمتنا",
+about_mission_paragraph: "مهمتنا هي تمكين الأفراد في جميع أنحاء العالم من تحقيق أحلامهم في البرمجة من خلال توفير تجارب تعليمية مخصصة وفعالة وداعمة.",
+
+about_vision_heading: "رؤيتنا",
+about_vision_paragraph: "نتصور مستقبلاً حيث يمكن لأي شخص، بغض النظر عن خلفيته أو موقعه، اكتساب المهارات التقنية المطلوبة للنمو في الاقتصاد الرقمي.",
+
+about_why_choose_heading: "لماذا تختار كوديسي؟",
+about_value1_title: "خرائط طريق مخصصة",
+about_value1_desc: "يتم تخصيص مسارات التعلم لأهدافك المهنية المحددة.",
+about_value2_title: "تعلم تفاعلي",
+about_value2_desc: "شارك في الاختبارات والمشاريع الصغيرة وجلسات الخبراء.",
+about_value3_title: "دعم المجتمع",
+about_value3_desc: "تواصل مع المتعلمين والمرشدين الآخرين (قريباً).",
+
+about_team_heading: "فريقنا",
+about_team_paragraph: "نحن فريق متحمس من المطورين والمعلمين والمصممين ملتزمون ببناء أفضل تجربة تعليم إلكتروني. نحن نؤمن بقوة التعليم في تغيير الحياة.",
+
+// Contact Us Page (new additions)
+contact_us_title: "تواصل معنا",
+contact_introduction_paragraph: "يسعدنا أن نسمع منك! سواء كان لديك سؤال أو ملاحظات أو تحتاج إلى دعم، يرجى عدم التردد في التواصل. اختر طريقة الاتصال الأكثر صلة أدناه.",
+
+contact_general_inquiries_heading: "استفسارات عامة",
+contact_general_inquiries_paragraph: "للاستفسارات العامة حول كوديسي، أو الشراكات، أو استفسارات وسائل الإعلام:",
+contact_technical_support_heading: "الدعم الفني",
+contact_technical_support_paragraph: "إذا كنت تواجه مشاكل فنية في المنصة أو تحتاج إلى مساعدة بشأن حسابك:",
+contact_partnerships_heading: "الشراكات والتعاون",
+contact_partnerships_paragraph: "للمقترحات التجارية، أو التعاون الأكاديمي، أو فرص الشراكة الأخرى:",
+contact_email_label: "البريد الإلكتروني",
+
+contact_social_media_heading: "تواصل معنا عبر وسائل التواصل",
+contact_social_media_paragraph: "تابعنا على وسائل التواصل الاجتماعي للبقاء على اطلاع بآخر الأخبار والميزات ونصائح البرمجة:",
+contact_facebook: "فيسبوك",
+contact_twitter: "تويتر",
+contact_linkedin: "لينكد إن",
   },
 };

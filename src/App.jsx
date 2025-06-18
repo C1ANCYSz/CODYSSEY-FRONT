@@ -26,6 +26,13 @@ import AcceptedAppointments from "./features/content/AcceptedAppointments";
 import CompletedAppointments from "./features/content/CompletedAppointments";
 import Recommendations from "./pages/Recommendations";
 import { TranslationProvider } from "./context/TranslationContext";
+import HelpCenter from "./pages/HelpCenter";
+import Faqs from "./pages/Faqs";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import Error from "./ui/Error";
 
 function App() {
   return (
@@ -144,15 +151,20 @@ function App() {
                     </PrivateRoute>
                   }
                 />
+                <Route path="help" element={<HelpCenter />} />
+                <Route path="faqs" element={<Faqs />} />
+                <Route path="terms" element={<TermsOfService />} />
+                <Route path="privacy" element={<PrivacyPolicy />} />
+                <Route path="about" element={<AboutUs />} />
+                <Route path="contact" element={<ContactUs />} />
               </Route>
+
               <Route path="roadmaps/:roadmapId" element={<Roadmap />} />
               <Route path="verify-email" element={<VerifyEmail />} />
-
-              <Route
-                path="/reset-password/:token"
-                element={<ResetPassword />}
-              ></Route>
+              <Route path="reset-password/:token" element={<ResetPassword />} />
+              <Route path="*" element={<Error error={"404 not found"} />} />
             </Routes>
+
             <Toaster
               position="top-center"
               toastOptions={{
